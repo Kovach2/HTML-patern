@@ -1,0 +1,16 @@
+@import "vars";
+@import "base/fonts";
+@import "base/reset";
+@import "layouts/header";
+@import "layouts/footer";
+@import "utils/mixins";
+
+body{
+    font-family: $fontMain;
+}
+
+.wrapper{
+    max-width: $wrapper;
+    margin: 0 auto;
+    padding: 0 20px;
+}

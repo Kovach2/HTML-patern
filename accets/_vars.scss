@@ -1,0 +1,34 @@
+@import "./base/fonts";
+
+// Container & Breakpoints
+
+$wrapper: 1160 + px;
+$breakpoint1400: 1339.98 + px;
+$breakpoint992: 991.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint480: 479.98 + px;
+
+// Burger Menu
+$burgerBreakpoint: $breakpoint992;
+$burgerActiveColor: 'white';
+
+// Fonts
+$fontMain : "Montserrat-Regular", sans-serif;
+$fontSecond: "Montserrat-SemiBold", sans-serif;
+$fontThird: "Montserrat-Medium", sans-serif;
+$fontFours: "Montserrat-Bold", sans-serif;
+
+// Colors
+
+$mainColor: #ffffff;
+$color1: #ffffff;
+$color2: #ffffff;
+$color3: #ffffff;
+
+// Graients
+
+$gradient1: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+$gradient2: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+$gradient3: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+$gradient4: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+
